@@ -29,27 +29,23 @@ public class TestGooglePage {
     }
 	
 	@Test
-	public void testImageSearch() throws InterruptedException {		
+	public void testImageSearch() {			
 		
 		// Step 1: Launch the browser and navigate to google.com
 		driver.get("https://www.google.com.au/");
 		
 		// Step 2: Find the search bar and type "Canberra"
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));  // Timeout of 10 seconds
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
         WebElement searchBox = wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("q")));
         searchBox.sendKeys("Canberra");
         
         // Step 3: Submit the search
         searchBox.submit();		
-		
-//		driver.switchTo().frame(driver.findElement(By.xpath("//iframe[@title='reCAPTCHA']")));
-//		Thread.sleep(5000);driver.findElement(By.cssSelector(".recaptcha-checkbox-border")).click();        
         
-		//Thread.sleep(10000);
-		
-		// Step 4: Find the "Images" tab and click it		
-		WebElement imagesTab = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[contains(text(),'Images')]")));
+        // Step 4: Find the "Images" tab and click it		
+ 		WebElement imagesTab = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[contains(text(),'Images')]")));
         imagesTab.click();
+		
 	}
 	
 	@AfterTest
