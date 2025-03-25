@@ -52,9 +52,9 @@ Open the project in Java IDE (e.g. Eclipse) <br>
   ```
 
 ## Project Structure
-- `src/test/java`: Contains your test code.
+- `src/test/java`: Contains the test code.
 - `pom.xml`: Contains project dependencies and configuration for Maven.
-- `README.md`: This file, providing instructions for setup and usage.
+- `README.md`: Provides instructions for setup and usage.
 
 
 
