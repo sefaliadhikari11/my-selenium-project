@@ -15,6 +15,7 @@ Before running the tests, ensure you have the following installed:
 First, clone the repository to your local machine: <br> 
     ```
     git clone https://github.com/sefaliadhikari11/my-selenium-project.git
+    git checkout master
   
     ```
 
