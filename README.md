@@ -5,7 +5,7 @@ This repository contains a Selenium WebDriver-based Java project which tests the
 Before running the tests, ensure you have the following installed:
  
 >- Java (JDK 8 or higher)  <br>
->- Maven (usually comes with python)  <br>
+>- Maven <br>
 >- IDE - (e.g. Eclipse) <br>
 >- ChromeDriver <br>
 
