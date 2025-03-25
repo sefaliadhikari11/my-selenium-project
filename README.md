@@ -46,12 +46,10 @@ Open the project in Java IDE (e.g. Eclipse) <br>
 
   Alternatively, you can run the tests using Maven from the command line:
   
-
-
-    ```
+  ```
     mvn test
     
-    ```
+  ```
 
 ## Project Structure
 - `src/test/java`: Contains your test code.
